@@ -122,8 +122,8 @@
 ;; 去掉滚动条
 (set-scroll-bar-mode nil)
 ;;设置home键指向buffer开头，end键指向buffer结尾  
-(global-set-key [home] 'beginning-of-buffer)  
-(global-set-key [end] 'end-of-buffer)
+;;(global-set-key [home] 'beginning-of-buffer)  
+;;(global-set-key [end] 'end-of-buffer)
 
 ;; move window (Shift + cursor)
 (windmove-default-keybindings)
